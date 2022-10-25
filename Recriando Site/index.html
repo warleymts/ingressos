@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,39 +18,44 @@
       <a href="index.html">
         <img src="./imagens/1.png" alt="Logo Kenzie Festival" />
       </a>
-      <nav>
+      <nav class="menu">
         <ul>
           <li>
             <a href="./index.html#sobre">Sobre</a>
           </li>
         </ul>
-        <a href="./carrinho.html" target="_blank">Quero o meu ingresso!</a>
-        <button>
+        <a class="btn transparent" href="./carrinho.html"
+          >Quero o meu ingresso!</a
+        >
+        <button class="buttonhead">
           <img src="./imagens/Vectorsol.png" alt="DarkmodeOFF" />
         </button>
       </nav>
     </header>
     <section id="principal">
       <img src="./imagens/logo2.png" alt="Patinho de óculos" />
-      <h1>Dev Festival</h1>
-      <a href="./carrinho.html" target="_blank">Quero meu ingresso!</a>
+      <h1 class="title one">
+        <span class="blue-text">&lt;Dev/&gt;</span> Festival
+      </h1>
+      <a class="btn colorblue" href="./carrinho.html">Quero meu ingresso!</a>
       <img src="./imagens/ouvindomsc1.png" alt="Moça ouvindo música" />
     </section>
     <section id="sobre">
       <img src="./imagens/ouvindomsc2.png" alt="moça ouvindo música 2" />
-      <h2>Sobre o Festival</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
-        illum?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
-        voluptatem!
-      </p>
-      
+      <h2 class="title two">Sobre o Festival</h2>
+      <div class="content-box">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
+          illum?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+          voluptatem!
+        </p>
+      </div>
     </section>
     <section id="artistas">
-      <h2>Artistas</h2>
+      <h2 class="title two">Artistas</h2>
       <ul>
         <li>
           <img src="./imagens/artista1.png" alt="" />
