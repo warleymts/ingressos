@@ -14,58 +14,72 @@
     <title>Carrinho</title>
   </head>
   <body>
-    <header>
-      <a href="index.html">
-        <img src="./imagens/1.png" alt="Logo Kenzie Festival" />
-      </a>
-      <nav class="menu">
-        <ul>
-          <li>
-            <a href="./index.html#sobre">Sobre</a>
-          </li>
-        </ul>
-        <a class="btn transparent" href="./carrinho.html"
-          >Quero o meu ingresso!</a
-        >
-        <button class="buttonhead">
-          <img src="./imagens/Vectorsol.png" alt="DarkmodeOFF" />
-        </button>
-      </nav>
+    <header id="header">
+      <div class="container">
+        <div class="flexbox">
+          <a href="index.html" class="logo">
+            <img src="./imagens/1.png" alt="Logo Kenzie Festival" />
+          </a>
+          <nav class="menu">
+            <ul>
+              <li>
+                <a href="./index.html#sobre">Sobre</a>
+              </li>
+            </ul>
+            <a class="btn transparent" href="./carrinho.html"
+              >Quero o meu ingresso!</a
+            >
+            <button class="buttonhead">
+              <img src="./imagens/Vectorsol.png" alt="DarkmodeOFF" />
+            </button>
+          </nav>
+        </div>
+      </div>
     </header>
     <section id="carrinho">
-      <h1 class="title one">Finalizar a Compra</h1>
-      <ul>
-        <li>
-          <h3 class="title four">Ingresso para o Kenzie Music Festival</h3>
-          <div>
-            <div>
-              <button>-</button>
-              <span>1</span>
-              <button>+</button>
-            </div>
-            <div class="title three">R$ 90,00 por pessoa</div>
+      <div class="container">
+        <div class="flexbox">
+          <div class="left">
+            <h1 class="title one">Finalizar a Compra</h1>
+            <ul class="ticketlist">
+              <li class="ticket">
+                <h3 class="title four">
+                  Ingresso para o Kenzie Music Festival
+                </h3>
+                <div class="price">
+                  <div class="control">
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                  </div>
+                  <div class="title three">R$ 90,00 por pessoa</div>
+                </div>
+              </li>
+            </ul>
           </div>
-        </li>
-      </ul>
-      <div>
-        <h2 class="title three">Preencha os campos</h2>
-        <form action="">
-          <input
-            type="text"
-            name="nome"
-            id="nome"
-            placeholder="Seu nome"
-            required
-          />
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Seu e-mail"
-            required
-          />
-          <button class="btn colorblue" type="submit">Finalizar compra</button>
-        </form>
+          <div class="right">
+            <h2 class="title three pad20-bottom">Preencha os campos</h2>
+            <form class="form">
+              <input
+                type="text"
+                name="nome"
+                id="nome"
+                placeholder="Seu nome"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Seu e-mail"
+                required
+              />
+              <button class="btn colorblue" type="submit" >
+                Finalizar compra
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
     </section>
   </body>

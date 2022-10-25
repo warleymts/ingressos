@@ -14,33 +14,43 @@
     <title>Dev Festival</title>
   </head>
   <body>
-    <header>
-      <a href="index.html">
-        <img src="./imagens/1.png" alt="Logo Kenzie Festival" />
-      </a>
-      <nav class="menu">
-        <ul>
-          <li>
-            <a href="./index.html#sobre">Sobre</a>
-          </li>
-        </ul>
-        <a class="btn transparent" href="./carrinho.html"
-          >Quero o meu ingresso!</a
-        >
-        <button class="buttonhead">
-          <img src="./imagens/Vectorsol.png" alt="DarkmodeOFF" />
-        </button>
-      </nav>
+    <header id="header">
+      <div class="container">
+        <div class="flexbox">
+          <a href="index.html" class="logo">
+            <img src="./imagens/1.png" alt="Logo Kenzie Festival" />
+          </a>
+          <nav class="menu">
+            <ul>
+              <li>
+                <a href="./index.html#sobre">Sobre</a>
+              </li>
+            </ul>
+            <a class="btn transparent" href="./carrinho.html"
+              >Quero o meu ingresso!</a
+            >
+            <button class="buttonhead">
+              <img src="./imagens/Vectorsol.png" alt="DarkmodeOFF" />
+            </button>
+          </nav>
+        </div>
+      </div>
     </header>
     <section id="final">
-      <h1 class="title one">Compra realizada com sucesso!</h1>
-      <div>
-        <h2 class="title two">José da Silva</h2>
-        <p>josedasilva1@outlook.com</p>
-        <div class="title halfthree">Ingresso para 3 pessoas</div>
-        <img src="./imagens/pato3.png" alt="" />
+      <div class="container">
+        <div class="flexbox">
+          <h1 class="title one">Compra realizada com sucesso!</h1>
+          <div class="ticket">
+            <h2 class="title two">José da Silva</h2>
+            <p class="title three">josedasilva1@outlook.com</p>
+            <div class="quantity">
+              <p class="title halfthree"> Ingresso para <span class="lightblue-text">3</span> pessoas</p>
+            </div>
+            <img src="./imagens/pato3.png" alt="" />
+          </div>
+          <a class="btn colorblue" href="./index.html">Retornar ao início</a>
+        </div>
       </div>
-      <a href="./index.html">Retornar ao início</a>
     </section>
   </body>
 </html>
