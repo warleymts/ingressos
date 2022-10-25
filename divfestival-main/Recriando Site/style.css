@@ -1,0 +1,118 @@
+/* BODY */
+
+body {
+  background-color: #01011c;
+}
+
+/*HEADER */
+
+header .menu ul a {
+  font-size: 19px;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* TIPOGRAFIA */
+
+.title {
+  font-family: "Poppins";
+  color: white;
+}
+
+.title.one {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 110px;
+}
+
+.title.two {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+}
+
+.title.three {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.title.halfthree {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+}
+
+.title.four {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 28px;
+}
+
+.content-box p {
+  font-family: "Poppins" ;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  color: white;
+}
+
+a {
+  font-family: "Poppins";
+  text-decoration: none;
+}
+
+.blue-text {
+  color: blue;
+}
+
+/* BOTÕES */
+
+.buttonhead {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 18px;
+  width: 300px;
+  height: 60px;
+  line-height: 27px;
+  border-radius: 255px;
+}
+
+.btn.colorblue {
+  background-color: #0000ff;
+  color: white;
+}
+
+.btn.colorblue:hover {
+  background: #4444ff;
+  border-color: #4444ff;
+  transition: 0.4s;
+}
+
+.btn.transparent {
+  background-color: transparent;
+  color: #a5a5ff;
+  border: 2px solid #a5a5ff;
+}
+
+.btn.transparent:hover {
+  background-color: #a5a5ff;
+  color: white;
+  transition: 0.4s;
+}
