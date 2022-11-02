@@ -1,9 +1,9 @@
 body {
-  background-color: #01011c;
+  background-color: #00ff00;
 }
 
 #header {
-  background-color: #01011c;
+  background-color: #00ff00;
 }
 
 img {
@@ -68,6 +68,7 @@ a {
 
 .content-box p {
   font-family: "Poppins";
+  font-style: normal;
   font-weight: 400;
   font-size: 19px;
   line-height: 28px;
@@ -82,7 +83,6 @@ a {
   color: #a5a5ff;
 }
 
-/* GLOBAL SPACING */
 .pad10-top {
   padding-top: 10px;
 }
