@@ -82,4 +82,29 @@ a {
   color: #a5a5ff;
 }
 
+/* GLOBAL SPACING */
+.pad10-top {
+  padding-top: 10px;
+}
+
+.pad20-top {
+  padding-top: 20px;
+}
+
+.pad30-top {
+  padding-top: 30px;
+}
+
+.pad10-bottom {
+  padding-bottom: 10px;
+}
+
+.pad20-bottom {
+  padding-bottom: 20px;
+}
+
+.pad30-bottom {
+  padding-bottom: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */
