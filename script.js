@@ -18,12 +18,12 @@ addticket.addEventListener("click", (e) => {
 removeticket.addEventListener("click", (e) => {
   console.log("Remover");
   e.preventDefault();
-  console.log("Remover");
   if (parseInt(ticket.innerText) !== 1) {
     ticket.innerText = parseInt(ticket.innerText) - 1;
     ticketprice.innerText = parseInt(ticket.innerText) * 90;
   }
 });
+
 
 cartform.addEventListener("submit", (e) => {
   e.preventDefault();
