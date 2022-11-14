@@ -31,12 +31,12 @@ cartform.addEventListener("submit", (e) => {
   const email = cartform.email.value;
   const quantitytickets = ticket.innerText;
 
-  window.localStorage.setItem("nome", nome)
-  window.localStorage.setItem("email", email)
-  window.localStorage.setItem("quantitytickets", quantitytickets)
-  window.Location.href = "final.html"
+  window.localStorage.setItem("nome", nome);
+  window.localStorage.setItem("email", email);
+  window.localStorage.setItem("quantitytickets", quantitytickets);
+  window.Location.href = "final.html";
 
   console.log("Nome:", nome);
   console.log("Email:", email);
-  console.log("Tickets", ticket.innerText)
+  console.log("Tickets", ticket.innerText);
 });
