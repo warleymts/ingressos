@@ -1,0 +1,55 @@
+@mixin text-style($font-style, $font-weight, $font-size, $line-height) {
+  font-style: $font-style;
+  font-weight: $font-weight;
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+.title {
+  font-family: "Poppins";
+  color: white;
+  line-height: 1.2;
+}
+
+a {
+  font-family: "Poppins";
+  text-decoration: none;
+}
+
+.title.one {
+  @include text-style(normal, 700, 80px, 110px);
+}
+
+.title.two {
+  @include text-style(normal, 700, 60px, 90px);
+}
+
+.title.three {
+  @include text-style(normal, 600, 24px, 36px);
+}
+
+.title.halfthree {
+  @include text-style(normal, 700, 28px, 42px);
+}
+
+.title.four {
+  @include text-style(normal, 600, 19px, 28px);
+}
+
+.title.center {
+  text-align: center;
+}
+
+.content-box p {
+  font-family: "Poppins";
+  @include text-style(normal, 400, 19px, 28px);
+  color: white;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.lightblue-text {
+  color: $secondary-color;
+}
