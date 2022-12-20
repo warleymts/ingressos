@@ -1,0 +1,41 @@
+.buttonhead {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 18px;
+  width: 300px;
+  height: 60px;
+  line-height: 27px;
+  border-radius: 255px;
+}
+
+.btn.colorblue {
+  background-color: #0000ff;
+  color: white;
+}
+
+.btn.colorblue:hover {
+  background: #4444ff;
+  border-color: #4444ff;
+  transition: 0.4s;
+}
+
+.btn.transparent {
+  background-color: transparent;
+  color: #a5a5ff;
+  border: 2px solid #a5a5ff;
+}
+
+.btn.transparent:hover {
+  background-color: #a5a5ff;
+  color: white;
+  transition: 0.4s;
+}

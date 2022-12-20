@@ -1,0 +1,26 @@
+header .menu ul a {
+  font-size: 19px;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+}
+
+#header ul li {
+  list-style: none;
+}
+
+#header .flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+#header .flexbox nav {
+  align-items: center;
+  display: flex;
+  gap: 36px;
+}
+
+#header .flexbox .logo img {
+  max-width: 160px;
+} 
