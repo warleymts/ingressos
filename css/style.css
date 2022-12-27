@@ -1,9 +1,9 @@
 body {
-  background-color: #01011c;
+  background-color: #01041c;
 }
 
 #header {
-  background-color: #01011c;
+  background-color: #01041c;
 }
 
 img {
@@ -14,6 +14,13 @@ img {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  padding: 10px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .title {
@@ -105,6 +112,298 @@ a {
 
 .pad30-bottom {
   padding-bottom: 30px;
+}
+
+header .menu ul a {
+  font-size: 19px;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+}
+
+#header ul li {
+  list-style: none;
+}
+
+#header .flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+#header .flexbox nav {
+  align-items: center;
+  display: flex;
+  gap: 36px;
+}
+
+#header .flexbox .logo img {
+  max-width: 160px;
+}
+
+.buttonhead {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 18px;
+  width: 300px;
+  height: 60px;
+  line-height: 27px;
+  border-radius: 255px;
+}
+
+.btn.colorblue {
+  background-color: #0000ff;
+  color: white;
+}
+
+.btn.colorblue:hover {
+  background: #4444ff;
+  border-color: #4444ff;
+  transition: 0.4s;
+}
+
+.btn.transparent {
+  background-color: transparent;
+  color: #a5a5ff;
+  border: 2px solid #a5a5ff;
+}
+
+.btn.transparent:hover {
+  background-color: #a5a5ff;
+  color: white;
+  transition: 0.4s;
+}
+
+#principal {
+  padding: 0px 0;
+}
+
+#principal .flexbox {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+}
+
+#sobre {
+  padding: 50px 0;
+}
+
+#sobre .flexbox {
+  display: flex;
+  align-items: center;
+  gap: 75px;
+}
+
+#sobre .flexbox .left,
+#sobre .flex-box right {
+  width: 100%;
+}
+
+#sobre .flexbox .left img {
+  width: 100%;
+}
+
+#artistas {
+  padding: 50px 0;
+}
+
+#artistas ul li {
+  list-style: none;
+}
+
+#artistas ul {
+  display: flex;
+  gap: 15px;
+}
+
+#final .flexbox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+}
+
+#final .flexbox .ticket {
+  position: relative;
+  min-width: 700px;
+  min-height: 370px;
+  border: 1px solid #0000ff;
+  border-left-width: 100px;
+  padding: 40px;
+}
+
+#final .flexbox .ticket img {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+#final .flexbox .ticket .quantity {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+#carrinho {
+  padding: 50px 0;
+}
+
+#carrinho .flexbox {
+  display: flex;
+  gap: 40px;
+}
+
+#carrinho .flexbox .left,
+#carrinho .flexbox .right {
+  width: 100%;
+}
+
+#carrinho .flexbox .right {
+  max-width: 300px;
+}
+
+#carrinho .flexbox .ticketlist {
+  margin-top: 30px;
+}
+
+#carrinho .flexbox .ticketlist .ticket {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 40px;
+  border: 1px solid #a5a5ff;
+  border-radius: 25px;
+}
+
+#carrinho .flexbox .ticketlist .ticket .control {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+#carrinho .flexbox .ticketlist .ticket .control button {
+  font-family: "Poppins";
+  font-size: 17px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 29px;
+  height: 29px;
+  color: #ffffff;
+  border: 2px solid white;
+  border-radius: 255px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#carrinho .flexbox .ticketlist .ticket .control span {
+  font-family: "poppins";
+  font-size: 19px;
+  font-weight: 700;
+  color: #a5a5ff;
+}
+
+#carrinho .flexbox .form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#carrinho .flexbox .form input {
+  background-color: transparent;
+  height: 54px;
+  padding: 0 20px;
+  border: 1px solid #a5a5ff;
+  border-radius: 255px;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+#carrinho .flexbox .form button {
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+header .menu ul a {
+  font-size: 19px;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+}
+
+#header ul li {
+  list-style: none;
+}
+
+#header .flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+#header .flexbox nav {
+  align-items: center;
+  display: flex;
+  gap: 36px;
+}
+
+#header .flexbox .logo img {
+  max-width: 160px;
+}
+
+.buttonhead {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 18px;
+  width: 300px;
+  height: 60px;
+  line-height: 27px;
+  border-radius: 255px;
+}
+
+.btn.colorblue {
+  background-color: #0000ff;
+  color: white;
+}
+
+.btn.colorblue:hover {
+  background: #4444ff;
+  border-color: #4444ff;
+  transition: 0.4s;
+}
+
+.btn.transparent {
+  background-color: transparent;
+  color: #a5a5ff;
+  border: 2px solid #a5a5ff;
+}
+
+.btn.transparent:hover {
+  background-color: #a5a5ff;
+  color: white;
+  transition: 0.4s;
 }
 
 /*# sourceMappingURL=style.css.map */
